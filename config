@@ -1,0 +1,54 @@
+  Host *                                                                                                        
+      ServerAliveInterval 60                                                                                                                                                            
+      ServerAliveCountMax 3                                                                                                                                                             
+                                                                                                                                                                                        
+  Host login-1                                                                                                                                                                          
+      HostName login-1.ph.rc.unr.edu                              
+      User wyim
+      Port 22
+      ServerAliveInterval 300
+      ServerAliveCountMax 5
+
+  Host login-0
+      HostName login-0.ph.rc.unr.edu
+      User wyim
+      Port 22
+      ServerAliveInterval 300
+      ServerAliveCountMax 5
+
+  Host pronghorn
+      HostName login-0.ph.rc.unr.edu
+      User wyim
+      ServerAliveInterval 300
+      ServerAliveCountMax 2
+
+  Host nas
+      HostName 134.197.50.14
+      User wyim
+      Port 22
+      ServerAliveInterval 300
+      ServerAliveCountMax 5
+
+  Host camnas
+      HostName 134.197.50.113
+      User root
+      Port 222
+
+  Host gb10
+      HostName 134.197.50.227
+      User wyim
+      Port 22
+
+  Host won
+      HostName 134.197.50.163
+      User wyim
+      Port 22
+
+  Host mac
+      HostName 134.197.50.76
+      User wyim
+
+  Host home
+      HostName 71.11.181.116
+      User wyim
+      Port 222
